@@ -1,0 +1,78 @@
+
+.salonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.loaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.imgContainer {
+  position: relative;
+
+  .backgroundImg {
+    width: 100%;
+    height: 250px;
+  }
+
+  .header {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    img {
+      margin: 15px
+    }
+  }
+  .titleData {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6));
+  }
+
+  .title {
+    color: white;
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  height: 45px;
+  justify-content: space-around;
+  align-items: center;
+  div {
+    flex: 1 0 auto;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  div:first-child {
+    border-bottom: solid 2px #b69f58;
+  }
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+
+  .infoItem {
+    height: 44px;
+    line-height: 44px;
+    border-bottom: solid 0.5px #eeeeee;
+    img {
+      margin: 0 15px;
+    }
+  }
+}
+
+.bodyContainer {
+  margin: 20px 15px;
+}

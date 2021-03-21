@@ -1,0 +1,19 @@
+.headerContainer {
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  border: solid 0.5px #b69f58;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.backIcon {
+  margin: 13px 15px;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.filterIcon {
+  margin: 13px 15px;
+}

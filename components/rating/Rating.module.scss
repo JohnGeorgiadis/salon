@@ -1,0 +1,21 @@
+.ratingContainer {
+  display: flex;
+  margin-top: 10px
+}
+
+.stars {
+  display: flex;
+  img {
+    margin: 2px;
+  }
+}
+
+.totalRating {
+  margin-left: 8px;
+  font-weight: lighter;
+  color: #656565;
+}
+
+.totalRatingLight {
+  color: white;
+}
