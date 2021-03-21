@@ -30,7 +30,7 @@ export default function Salon() {
     useEffect(() => {
         setIsLoading(true);
 
-        fetch(`http://localhost:3000/api/salons/${pid}`)
+        fetch(`https://salon-one.vercel.app/api/salons/${pid}`)
             .then(result => result.json())
             .then(salon => {
                 setHasError(false);

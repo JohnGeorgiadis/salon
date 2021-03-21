@@ -27,7 +27,7 @@ export default function Home() {
     useEffect(() => {
         setIsLoading(true);
 
-        fetch('http://localhost:3000/api/salons')
+        fetch('https://salon-one.vercel.app/api/salons')
             .then(result => result.json())
             .then(salons => {
                 setHasError(false);
@@ -81,7 +81,7 @@ export default function Home() {
                 />
                 </div>
             )}
-            {isLoading &&
+            {isLoading && !hasError &&
             <div className={styles.loaderContainer}>
                 <Loader/>
             </div>}
